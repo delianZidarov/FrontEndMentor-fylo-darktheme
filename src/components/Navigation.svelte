@@ -25,7 +25,7 @@
     .top-banner{
         display: flex;
         align-items: center;
-        background-color: var(--main-bg-color);
+        background-color: var(--email-sign-up-bg);
         width: 88vw;
         padding: 1.5rem 0 1.5rem 0;
         margin: 0 auto 0 auto; 

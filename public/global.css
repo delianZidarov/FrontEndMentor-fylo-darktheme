@@ -15,8 +15,8 @@
   --accent-color: #62e0d9;
   --button-active: #8adae3;
   --button-gradient-bg: linear-gradient(
-    138.1deg,
-    #63e1d9 -49.34%,
+    134.79deg,
+    #63e1d9 -42.11%,
     #34a0cd 100%
   );
   --error-color: hsl(0, 100%, 63%);
@@ -35,11 +35,31 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: var(--main-bg-color);
+  background-color: var(--email-sign-up-bg);
   color: var(--neutural-color);
+  overflow-x: hidden;
 }
 a {
   transition: 0.25s ease-in;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-heading);
+}
+p {
+  font-size: var(--font-size-body);
+  font-family: var(--font-family-body);
+}
+button {
+  background: var(--button-gradient-bg);
+  border: none;
+  border-radius: 1.5rem;
+  color: var(--neutural-color);
+}
+button:hover,
+button:focus {
+  background: var(--button-active);
 }
 a:hover,
 a:focus {

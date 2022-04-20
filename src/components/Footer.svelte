@@ -13,8 +13,11 @@
         color: inherit;
        
     }
+    
     .footer{
         padding-left: 1.75rem;
+        padding-bottom: 3.5rem;
+        background-color: var(--footer-bg);
     }
     .container {
         margin-top: 2.25rem;
@@ -30,9 +33,18 @@
     .footer-logo img{
         max-height: 100%;
     }
-    .container div img{
+    .container img{
         max-height: 1.5rem;
         width: auto;
+    }
+    .address{
+        transform: translateY(5px);
+    }
+    .email{
+        transform: translateY(2px);
+    }
+    .phone{
+        height: 14px;
     }
     .links-container{
         display: flex;
@@ -48,7 +60,6 @@
         gap: 10px;
         justify-content: center;
         margin-top: 3.5rem;
-        margin-bottom: 3.5rem;
     }
     .social-icon{
         display: flex;
@@ -73,13 +84,13 @@
     <img src="./images/logo.svg" alt="Fylo"/> 
 </div>
 <section class="container">
-        <img src="./images/icon-location.svg" alt="Address">  
+        <img src="./images/icon-location.svg" alt="Address" class="address">  
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
   dolore magna aliqua</p>
   
-        <img src="./images/icon-phone.svg" alt="Phone">
+        <img src="./images/icon-phone.svg" alt="Phone" class="phone">
             <p>+1-543-123-4567</p>
-        <img src="./images/icon-email.svg" alt="Email">
+        <img src="./images/icon-email.svg" alt="Email" class="email">
             <p>example@fylo.com</p>
 </section>
 <section class="links-container">
