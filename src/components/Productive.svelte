@@ -37,25 +37,29 @@
     }
     .link-container{
         display: inline-flex;
+        padding-bottom: .25em;
         gap: 1ch;
         align-items:center;
         border-bottom: 1px solid var(--accent-color);
     }
    .icon-arrow{
        display: inline-block;
-       background-image: url("../images/icon-arrow.svg");
-       width: 1rem;
-       height: 1rem;
    } 
    .link-container:hover {
     border-bottom: 1px solid var(--neutural-color);
+    transition: 0.25s ease-in;
    }
     .link-container:hover  a{
     color:var(--neutural-color);
     font-weight: 700;
+    transition: 0.25s ease-in;
    }
-   .link-container:hover .icon-arrow{
-       background-image: url("../images/icon-arrow-white.svg");
+   .link-container:hover #change-bg{
+    fill: var(--neutural-color);
+    transition: 0.25s ease-in;
+}
+   #change-bg{
+       fill: var(--accent-color);
    }
 </style>
 <section class="productive-container">
@@ -69,6 +73,9 @@
   attachments required.</p>
   <div class="link-container">
 <a href="#" >See how Fylo works  </a> 
-<span class="icon-arrow"></span>
+<!-- <span class="icon-arrow"> -->
+    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use id="change-bg"  xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330"/></g></svg>
+<!-- </span> -->
   </div>
+
 </section>
