@@ -14,7 +14,6 @@
     p{
         width: 79vw;
         margin: 1rem;
-        line-height: 1.5em;
         text-align: center;
     }
     button{
@@ -31,7 +30,7 @@
         background-image: url("../images/bg-curvy-mobile.svg"), linear-gradient(var(--email-sign-up-bg) 0 60%, var(--main-bg-color) 60% 100%);
         background-repeat: no-repeat;
         background-position: center;
-        padding-bottom: 60px;
+        margin-bottom: 120px;
     }
     .hero-image{
         width: 81vw;

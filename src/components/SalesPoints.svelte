@@ -8,15 +8,13 @@
     }
     p{
         margin: .5rem 0;
-        line-height: 21px;
     }
     .sales-points-container{
         display: flex;
         flex-wrap: wrap;
         background-color: var(--main-bg-color);
-        padding: 1.5rem;
         gap: 5.6rem;
-        margin: 60px 0px 60px 0px;
+        margin: 60px var(--body-margin) 60px var(--body-margin);
     }
     .sales-point{
         text-align: center;
