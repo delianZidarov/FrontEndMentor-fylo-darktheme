@@ -31,7 +31,7 @@
         background-image: url("../images/bg-curvy-mobile.svg"), linear-gradient(var(--email-sign-up-bg) 0 60%, var(--main-bg-color) 60% 100%);
         background-repeat: no-repeat;
         background-position: center;
-        
+        padding-bottom: 60px;
     }
     .hero-image{
         width: 81vw;

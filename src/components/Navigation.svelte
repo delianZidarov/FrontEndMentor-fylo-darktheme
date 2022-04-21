@@ -28,6 +28,7 @@
         background-color: var(--email-sign-up-bg);
         width: 88vw;
         padding: 1.5rem 0 1.5rem 0;
+        
         margin: 0 auto 0 auto; 
         transform: translateX(-4px);
     }
@@ -36,6 +37,7 @@
         height: 1.5rem;
     }
 </style>
+
 <div class="top-banner">
 <div class="logo" >
     <a href="#" aria-label="home" ><img src="./images/logo.svg"/></a>
