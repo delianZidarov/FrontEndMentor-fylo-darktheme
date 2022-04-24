@@ -4,18 +4,40 @@
  import Signup from "./components/Signup.svelte"
  import MainSales from "./components/MainSales.svelte"
  import SalesPoints from "./components/SalesPoints.svelte"
+ import Productive from "./components/Productive.svelte"
+ import Testimonials from "./components/Testimonials.svelte"
 </script>
+<style>
+	header{
+	background-color: var(--email-sign-up-bg);
+	}
+	main{
+		position:relative;
+		padding-bottom: 337px;
+	}
+	footer{
+		background-color: var(--footer-bg);
+		padding-top: 259px;
+	}
+	.position-sign-up{
+		position:absolute;
+		bottom:-26.5vh;
+		left:0;
+		right:0;
+	}
+</style>
 <header>
 <Navigation/>
 </header>
 <main>
 	<MainSales/>
 	<SalesPoints/>
+	<Productive/>
+	<Testimonials/>
+	<div class="position-sign-up">
 	<Signup/>
+	</div>
 </main>
 <footer>
 <Footer/>
 </footer>
-<style>
-	
-</style>

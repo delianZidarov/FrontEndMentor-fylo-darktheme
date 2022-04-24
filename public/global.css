@@ -29,13 +29,15 @@
 
   --font-family-heading: "Raleway", sans-serif;
   --font-family-body: "Open Sans", sans-serif;
+  /* Measurements */
+  --body-margin: 1.75rem;
 }
 html,
 body {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: var(--email-sign-up-bg);
+  background-color: var(--main-bg-color);
   color: var(--neutural-color);
   overflow-x: hidden;
 }
@@ -50,6 +52,7 @@ h3 {
 p {
   font-size: var(--font-size-body);
   font-family: var(--font-family-body);
+  line-height: 1.5em;
 }
 button {
   background: var(--button-gradient-bg);
