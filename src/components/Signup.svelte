@@ -24,6 +24,7 @@
     input{
         width: var(--input-button-width);
         height: var(--input-button-height);
+        margin-bottom: 1.5rem;
         border: none;
         border-radius: var(--input-button-border-radius);
         padding: var(--input-button-padding-top-bottom) var(--input-button-padding-left-right);
@@ -61,7 +62,7 @@
         font-size:.714em;
         font-weight: 700; 
         left: var(--input-button-padding-left-right);
-        top:-1em;
+        top:-2.25em;
     }
     ::placeholder{
         font-size: .714em;
@@ -73,8 +74,10 @@
     <form>
 <h2>Get Early access today</h2>
 <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-<input type="email" placeholder="email@example.com" bind:value={inputValue} class="error" required/>
+<div>
+<input type="email" placeholder="email@example.com" bind:value={inputValue}  required/>
 <p class:error={!correctEmailFormat(inputValue)}></p>
 <button>Get Started For Free</button>
+</div>
     </form>
 </div>

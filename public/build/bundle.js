@@ -434,32 +434,32 @@ var app = (function () {
     			a3 = element("a");
     			a3.textContent = "Sign In";
     			if (!src_url_equal(img.src, img_src_value = "./images/logo.svg")) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "svelte-1oisjfk");
-    			add_location(img, file$8, 42, 35, 854);
+    			attr_dev(img, "class", "svelte-1qai1xl");
+    			add_location(img, file$8, 63, 35, 1251);
     			attr_dev(a0, "href", "#");
     			attr_dev(a0, "aria-label", "home");
-    			attr_dev(a0, "class", "svelte-1oisjfk");
-    			add_location(a0, file$8, 42, 4, 823);
-    			attr_dev(div0, "class", "logo svelte-1oisjfk");
-    			add_location(div0, file$8, 41, 0, 799);
+    			attr_dev(a0, "class", "svelte-1qai1xl");
+    			add_location(a0, file$8, 63, 4, 1220);
+    			attr_dev(div0, "class", "logo svelte-1qai1xl");
+    			add_location(div0, file$8, 62, 0, 1196);
     			attr_dev(a1, "href", "#");
-    			attr_dev(a1, "class", "svelte-1oisjfk");
-    			add_location(a1, file$8, 46, 9, 917);
-    			add_location(li0, file$8, 46, 4, 912);
+    			attr_dev(a1, "class", "svelte-1qai1xl");
+    			add_location(a1, file$8, 67, 9, 1314);
+    			add_location(li0, file$8, 67, 4, 1309);
     			attr_dev(a2, "href", "#");
-    			attr_dev(a2, "class", "svelte-1oisjfk");
-    			add_location(a2, file$8, 47, 9, 957);
-    			add_location(li1, file$8, 47, 4, 952);
+    			attr_dev(a2, "class", "svelte-1qai1xl");
+    			add_location(a2, file$8, 68, 9, 1354);
+    			add_location(li1, file$8, 68, 4, 1349);
     			attr_dev(a3, "href", "#");
-    			attr_dev(a3, "class", "svelte-1oisjfk");
-    			add_location(a3, file$8, 48, 9, 993);
-    			add_location(li2, file$8, 48, 4, 988);
-    			attr_dev(ul, "class", "svelte-1oisjfk");
-    			add_location(ul, file$8, 45, 0, 902);
-    			attr_dev(nav, "class", "svelte-1oisjfk");
-    			add_location(nav, file$8, 44, 0, 896);
-    			attr_dev(div1, "class", "top-banner svelte-1oisjfk");
-    			add_location(div1, file$8, 40, 0, 774);
+    			attr_dev(a3, "class", "svelte-1qai1xl");
+    			add_location(a3, file$8, 69, 9, 1390);
+    			add_location(li2, file$8, 69, 4, 1385);
+    			attr_dev(ul, "class", "svelte-1qai1xl");
+    			add_location(ul, file$8, 66, 0, 1299);
+    			attr_dev(nav, "class", "svelte-1qai1xl");
+    			add_location(nav, file$8, 65, 0, 1293);
+    			attr_dev(div1, "class", "top-banner svelte-1qai1xl");
+    			add_location(div1, file$8, 61, 0, 1171);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1643,12 +1643,13 @@ var app = (function () {
     const file$5 = "src/components/Signup.svelte";
 
     function create_fragment$5(ctx) {
-    	let div;
+    	let div1;
     	let form;
     	let h2;
     	let t1;
     	let p0;
     	let t3;
+    	let div0;
     	let input;
     	let t4;
     	let p1;
@@ -1659,7 +1660,7 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div = element("div");
+    			div1 = element("div");
     			form = element("form");
     			h2 = element("h2");
     			h2.textContent = "Get Early access today";
@@ -1667,47 +1668,51 @@ var app = (function () {
     			p0 = element("p");
     			p0.textContent = "It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.";
     			t3 = space();
+    			div0 = element("div");
     			input = element("input");
     			t4 = space();
     			p1 = element("p");
     			t5 = space();
     			button = element("button");
     			button.textContent = "Get Started For Free";
-    			attr_dev(h2, "class", "svelte-11bpzvu");
-    			add_location(h2, file$5, 73, 0, 2017);
-    			attr_dev(p0, "class", "svelte-11bpzvu");
-    			add_location(p0, file$5, 74, 0, 2049);
+    			attr_dev(h2, "class", "svelte-13l44xh");
+    			add_location(h2, file$5, 74, 0, 2051);
+    			attr_dev(p0, "class", "svelte-13l44xh");
+    			add_location(p0, file$5, 75, 0, 2083);
     			attr_dev(input, "type", "email");
     			attr_dev(input, "placeholder", "email@example.com");
-    			attr_dev(input, "class", "error svelte-11bpzvu");
     			input.required = true;
-    			add_location(input, file$5, 75, 0, 2211);
-    			attr_dev(p1, "class", "svelte-11bpzvu");
+    			attr_dev(input, "class", "svelte-13l44xh");
+    			add_location(input, file$5, 77, 0, 2251);
+    			attr_dev(p1, "class", "svelte-13l44xh");
     			toggle_class(p1, "error", !correctEmailFormat(/*inputValue*/ ctx[0]));
-    			add_location(p1, file$5, 76, 0, 2312);
-    			attr_dev(button, "class", "svelte-11bpzvu");
-    			add_location(button, file$5, 77, 0, 2366);
-    			attr_dev(form, "class", "svelte-11bpzvu");
-    			add_location(form, file$5, 72, 4, 2010);
-    			attr_dev(div, "class", "signup-container svelte-11bpzvu");
-    			add_location(div, file$5, 71, 0, 1975);
+    			add_location(p1, file$5, 78, 0, 2339);
+    			attr_dev(button, "class", "svelte-13l44xh");
+    			add_location(button, file$5, 79, 0, 2393);
+    			attr_dev(div0, "class", "svelte-13l44xh");
+    			add_location(div0, file$5, 76, 0, 2245);
+    			attr_dev(form, "class", "svelte-13l44xh");
+    			add_location(form, file$5, 73, 4, 2044);
+    			attr_dev(div1, "class", "signup-container svelte-13l44xh");
+    			add_location(div1, file$5, 72, 0, 2009);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, form);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, form);
     			append_dev(form, h2);
     			append_dev(form, t1);
     			append_dev(form, p0);
     			append_dev(form, t3);
-    			append_dev(form, input);
+    			append_dev(form, div0);
+    			append_dev(div0, input);
     			set_input_value(input, /*inputValue*/ ctx[0]);
-    			append_dev(form, t4);
-    			append_dev(form, p1);
-    			append_dev(form, t5);
-    			append_dev(form, button);
+    			append_dev(div0, t4);
+    			append_dev(div0, p1);
+    			append_dev(div0, t5);
+    			append_dev(div0, button);
 
     			if (!mounted) {
     				dispose = listen_dev(input, "input", /*input_input_handler*/ ctx[1]);
@@ -1726,7 +1731,7 @@ var app = (function () {
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(div1);
     			mounted = false;
     			dispose();
     		}
@@ -1818,7 +1823,7 @@ var app = (function () {
     			t0 = space();
     			section = element("section");
     			h1 = element("h1");
-    			h1.textContent = "All your files in one secure location, accessible anywhere";
+    			h1.textContent = "All your files in one secure location, accessible anywhere.";
     			t2 = space();
     			p = element("p");
     			p.textContent = "Fylo stores all your most important files in one secure location. Access them wherever \n  you need, share and collaborate with friends family, and co-workers.";
@@ -1827,20 +1832,20 @@ var app = (function () {
     			button.textContent = "Get Started";
     			if (!src_url_equal(img.src, img_src_value = "./images/illustration-intro.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "giant folder with fills coming out");
-    			attr_dev(img, "class", "svelte-8mhusp");
-    			add_location(img, file$4, 44, 4, 961);
-    			attr_dev(div0, "class", "hero-image svelte-8mhusp");
-    			add_location(div0, file$4, 43, 0, 932);
-    			attr_dev(h1, "class", "svelte-8mhusp");
-    			add_location(h1, file$4, 47, 0, 1064);
-    			attr_dev(p, "class", "svelte-8mhusp");
-    			add_location(p, file$4, 48, 0, 1132);
-    			attr_dev(button, "class", "btn svelte-8mhusp");
-    			add_location(button, file$4, 50, 2, 1301);
-    			attr_dev(section, "class", "svelte-8mhusp");
-    			add_location(section, file$4, 46, 0, 1054);
-    			attr_dev(div1, "class", "main-sales svelte-8mhusp");
-    			add_location(div1, file$4, 42, 0, 907);
+    			attr_dev(img, "class", "svelte-1kalv97");
+    			add_location(img, file$4, 71, 4, 1691);
+    			attr_dev(div0, "class", "hero-image svelte-1kalv97");
+    			add_location(div0, file$4, 70, 0, 1662);
+    			attr_dev(h1, "class", "svelte-1kalv97");
+    			add_location(h1, file$4, 74, 0, 1794);
+    			attr_dev(p, "class", "svelte-1kalv97");
+    			add_location(p, file$4, 75, 0, 1863);
+    			attr_dev(button, "class", "btn svelte-1kalv97");
+    			add_location(button, file$4, 77, 2, 2032);
+    			attr_dev(section, "class", "svelte-1kalv97");
+    			add_location(section, file$4, 73, 0, 1784);
+    			attr_dev(div1, "class", "main-sales svelte-1kalv97");
+    			add_location(div1, file$4, 69, 0, 1637);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1980,46 +1985,46 @@ var app = (function () {
     			p3.textContent = "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all \n  file types to be securely stored and shared.";
     			if (!src_url_equal(img0.src, img0_src_value = "./images/icon-access-anywhere.svg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			attr_dev(img0, "class", "svelte-p72gq1");
-    			add_location(img0, file$3, 24, 8, 517);
-    			attr_dev(h20, "class", "svelte-p72gq1");
-    			add_location(h20, file$3, 25, 8, 579);
-    			attr_dev(p0, "class", "svelte-p72gq1");
-    			add_location(p0, file$3, 26, 8, 624);
-    			attr_dev(div0, "class", "sales-point svelte-p72gq1");
-    			add_location(div0, file$3, 23, 4, 483);
+    			attr_dev(img0, "class", "svelte-11udgtp");
+    			add_location(img0, file$3, 40, 8, 864);
+    			attr_dev(h20, "class", "svelte-11udgtp");
+    			add_location(h20, file$3, 41, 8, 926);
+    			attr_dev(p0, "class", "svelte-11udgtp");
+    			add_location(p0, file$3, 42, 8, 971);
+    			attr_dev(div0, "class", "sales-point svelte-11udgtp");
+    			add_location(div0, file$3, 39, 4, 830);
     			if (!src_url_equal(img1.src, img1_src_value = "./images/icon-security.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
-    			attr_dev(img1, "class", "svelte-p72gq1");
-    			add_location(img1, file$3, 30, 8, 799);
-    			attr_dev(h21, "class", "svelte-p72gq1");
-    			add_location(h21, file$3, 31, 8, 854);
-    			attr_dev(p1, "class", "svelte-p72gq1");
-    			add_location(p1, file$3, 32, 8, 894);
-    			attr_dev(div1, "class", "sales-point svelte-p72gq1");
-    			add_location(div1, file$3, 29, 4, 765);
+    			attr_dev(img1, "class", "svelte-11udgtp");
+    			add_location(img1, file$3, 46, 8, 1146);
+    			attr_dev(h21, "class", "svelte-11udgtp");
+    			add_location(h21, file$3, 47, 8, 1201);
+    			attr_dev(p1, "class", "svelte-11udgtp");
+    			add_location(p1, file$3, 48, 8, 1241);
+    			attr_dev(div1, "class", "sales-point svelte-11udgtp");
+    			add_location(div1, file$3, 45, 4, 1112);
     			if (!src_url_equal(img2.src, img2_src_value = "./images/icon-collaboration.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
-    			attr_dev(img2, "class", "svelte-p72gq1");
-    			add_location(img2, file$3, 36, 8, 1087);
-    			attr_dev(h22, "class", "svelte-p72gq1");
-    			add_location(h22, file$3, 37, 8, 1147);
-    			attr_dev(p2, "class", "svelte-p72gq1");
-    			add_location(p2, file$3, 38, 8, 1188);
-    			attr_dev(div2, "class", "sales-point svelte-p72gq1");
-    			add_location(div2, file$3, 35, 4, 1053);
+    			attr_dev(img2, "class", "svelte-11udgtp");
+    			add_location(img2, file$3, 52, 8, 1434);
+    			attr_dev(h22, "class", "svelte-11udgtp");
+    			add_location(h22, file$3, 53, 8, 1494);
+    			attr_dev(p2, "class", "svelte-11udgtp");
+    			add_location(p2, file$3, 54, 8, 1535);
+    			attr_dev(div2, "class", "sales-point svelte-11udgtp");
+    			add_location(div2, file$3, 51, 4, 1400);
     			if (!src_url_equal(img3.src, img3_src_value = "./images/icon-any-file.svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "");
-    			attr_dev(img3, "class", "svelte-p72gq1");
-    			add_location(img3, file$3, 42, 8, 1372);
-    			attr_dev(h23, "class", "svelte-p72gq1");
-    			add_location(h23, file$3, 43, 8, 1427);
-    			attr_dev(p3, "class", "svelte-p72gq1");
-    			add_location(p3, file$3, 44, 8, 1467);
-    			attr_dev(div3, "class", "sales-point svelte-p72gq1");
-    			add_location(div3, file$3, 41, 5, 1338);
-    			attr_dev(section, "class", "sales-points-container svelte-p72gq1");
-    			add_location(section, file$3, 22, 0, 438);
+    			attr_dev(img3, "class", "svelte-11udgtp");
+    			add_location(img3, file$3, 58, 8, 1719);
+    			attr_dev(h23, "class", "svelte-11udgtp");
+    			add_location(h23, file$3, 59, 8, 1774);
+    			attr_dev(p3, "class", "svelte-11udgtp");
+    			add_location(p3, file$3, 60, 8, 1814);
+    			attr_dev(div3, "class", "sales-point svelte-11udgtp");
+    			add_location(div3, file$3, 57, 5, 1685);
+    			attr_dev(section, "class", "sales-points-container svelte-11udgtp");
+    			add_location(section, file$3, 38, 0, 785);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

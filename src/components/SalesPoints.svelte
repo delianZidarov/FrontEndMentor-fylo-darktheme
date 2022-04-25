@@ -19,6 +19,22 @@
     .sales-point{
         text-align: center;
     }
+    @media screen and (min-width: 800px){
+        h2{
+            font-size: 1.25rem;
+        }
+
+        .sales-points-container{
+            margin-left: auto;
+            margin-right: auto;
+            padding-top:0;
+            margin-top:0;
+            width: 61vw;
+        }
+        .sales-point{
+            width: 23.5rem;
+        }
+    }
 </style>
 <section class="sales-points-container">
     <div class="sales-point">

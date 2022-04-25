@@ -36,6 +36,27 @@
         flex-basis: 50%;
         height: 1.5rem;
     }
+    @media screen and (max-width:374px){
+        ul{
+            font-size: 11px;
+        }
+    }
+    @media screen and (min-width: 800px){
+      nav{
+          display:flex;
+          justify-content: flex-end;
+          
+      }
+      ul{
+          font-size: 1rem;
+      }
+      .top-banner{
+          padding: 4.6rem 0 4.6rem 0;
+      }
+      .logo{
+          height: 3.25rem;
+      }  
+    }
 </style>
 
 <div class="top-banner">
