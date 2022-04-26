@@ -70,11 +70,14 @@
         font-size: 1rem;
         line-height: 1.5rem;
     }
+    a{
+        font-size: 1rem;
+    }
     .productive-container{
         display: flex;
         flex-wrap: nowrap;
-        gap: 57px;
-        margin-left: 105px;
+        gap: 3.6rem;
+        margin-left: 6.6rem;
     }
     .image-container{
         max-width:615px;

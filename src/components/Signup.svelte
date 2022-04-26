@@ -68,6 +68,44 @@
         font-size: .714em;
         color: #c0c0c0;
     }
+    @media screen and (min-width: 800px){
+        h2{
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+        p{
+            font-size: .875rem;
+            line-height: 1.5em;
+        }
+        form{
+            position:relative;
+            justify-content: flex-start;
+            gap: 2rem;
+            padding-bottom: .5rem;
+        }
+        input{
+            flex-grow: 1;
+        }
+        .signup-container{
+            --input-button-width: 12.5rem;
+            width: 60vw;
+            height: 17.5rem;
+        }
+        p:not(.error-display){
+            width: 80ch;
+        }
+        .signup-container div{
+            display: flex;
+            width: 100%;
+            gap: 2.5rem;
+        }
+        .error-display{
+            position: absolute;
+            left: 0;
+            bottom: -.5em;
+        }
+        
+    }
 
 </style>
 <div class="signup-container">
@@ -76,7 +114,7 @@
 <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
 <div>
 <input type="email" placeholder="email@example.com" bind:value={inputValue}  required/>
-<p class:error={!correctEmailFormat(inputValue)}></p>
+<p class:error={!correctEmailFormat(inputValue)} class="error-display"></p>
 <button>Get Started For Free</button>
 </div>
     </form>

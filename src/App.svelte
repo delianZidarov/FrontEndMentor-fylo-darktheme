@@ -25,6 +25,11 @@
 		left:0;
 		right:0;
 	}
+	@media screen and (min-width: 800px){
+		.position-sign-up{
+			bottom: -8.75rem;
+		}
+	}
 </style>
 <header>
 <Navigation/>
