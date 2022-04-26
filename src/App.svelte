@@ -14,6 +14,7 @@
 	main{
 		position:relative;
 		padding-bottom: 337px;
+		
 	}
 	footer{
 		background-color: var(--footer-bg);
@@ -25,19 +26,20 @@
 		left:0;
 		right:0;
 	}
-	@media screen and (min-width: 1400px){
-		footer{
-			padding-top: 10.75rem;
-		}
-		.position-sign-up{
-			bottom: -8.75rem;
-		}
-	}
 	@media screen and (min-width: 800px){
 		.position-sign-up{
 			bottom: -11rem;
 		}
 	}
+	@media screen and (min-width: 1400px){
+		footer{
+			padding-top: 12.75rem;
+		}
+		.position-sign-up{
+			bottom: -8.75rem;
+		}
+	}
+	
 </style>
 <header>
 <Navigation/>

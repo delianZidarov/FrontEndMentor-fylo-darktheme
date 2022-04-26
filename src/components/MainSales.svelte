@@ -37,6 +37,13 @@
     .hero-image img{
         max-width: 100%;
     }
+     @media screen and (min-width:800px){
+       .main-sales{
+          background-image: url("../images/bg-curvy-desktop.svg");
+          background-size:100vw auto;
+          background-position-y: 100%;
+       } 
+    }
     @media screen and (min-width:1400px){
         h1{
             max-width: 45.9rem;
@@ -66,13 +73,7 @@
         }
         
     }
-    @media screen and (min-width:800px){
-       .main-sales{
-          background-image: url("../images/bg-curvy-desktop.svg");
-          background-size:100vw auto;
-          background-position-y: 100%;
-       } 
-    }
+   
 </style>
 <div class="main-sales">
 <div class="hero-image">

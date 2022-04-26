@@ -59,6 +59,23 @@
    #change-bg{
        fill: var(--accent-color);
    }
+    @media screen and (min-width: 800px){
+        h2{
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+        a{
+            font-size: 1rem;
+        }  
+       .image-container{
+           margin-left: auto;
+           margin-right: auto;
+       }
+   }
    @media screen and (min-width: 1400px){
     h2{
         width: 20ch;
@@ -89,23 +106,7 @@
         margin-bottom: auto;
     }
    }
-   @media screen and (min-width: 800px){
-        h2{
-            text-align: center;
-            font-size: 2.5rem;
-        }
-        p{
-            font-size: 1rem;
-            line-height: 1.5rem;
-        }
-        a{
-            font-size: 1rem;
-        }  
-       .image-container{
-           margin-left: auto;
-           margin-right: auto;
-       }
-   }
+  
 </style>
 <section class="productive-container">
     <div class="image-container">

@@ -69,6 +69,19 @@
         font-size: .714em;
         color: #c0c0c0;
     }
+    @media screen and (min-width: 800px){
+        form{
+            position:relative;
+            justify-content: flex-start;
+            gap: 2rem;
+        }
+       .signup-container{
+            --input-button-width: 17.5rem;
+            width: 60vw;
+            height: 22rem;
+        }
+        
+    }
     @media screen and (min-width: 1400px){
         h2{
             font-size: 2rem;
@@ -107,21 +120,7 @@
         }
         
     }
-    @media screen and (min-width: 800px){
-        form{
-            position:relative;
-            justify-content: flex-start;
-            gap: 2rem;
-        }
-       .signup-container{
-            --input-button-width: 17.5rem;
-            width: 60vw;
-            height: 22rem;
-        }
-        /* .signup-container div{
-            width: 100%;
-        }  */
-    }
+    
 </style>
 <div class="signup-container">
     <form>

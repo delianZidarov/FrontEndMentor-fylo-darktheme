@@ -12,6 +12,7 @@
     .sales-points-container{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
         background-color: var(--main-bg-color);
         gap: 5.6rem;
         margin: 60px var(--body-margin) 60px var(--body-margin);

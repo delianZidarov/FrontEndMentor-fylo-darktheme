@@ -45,34 +45,7 @@
         top:-22px;
         left:4px;
     }
-    @media screen and (min-width:1400px){
-        p{
-            font-size: .875rem;
-            line-height: 1.5em;
-        }
-        .testimonials-container{
-            margin-left: 7.2rem;
-            gap: 2.5rem;
-        }
-        .user-information-container{
-            row-gap:0;
-            column-gap: .75rem;
-        }
-        .testimonial{
-            width: 22.5rem;
-        }
-        .user-description{
-            font-size: .5rem;
-            line-height: .625rem;
-        }
-        .bg-quotes{
-        position:absolute;
-        width: 5rem;
-        top:-50px;
-        left:-10px;
-        }
-    }
-    @media screen and (min-width: 800px){
+     @media screen and (min-width: 800px){
         .testimonials-container{
             margin-left: calc(10vw + 4px);
             margin-right: calc(10vw - 4px);
@@ -88,6 +61,36 @@
         left:-4px;
     }
     }
+    @media screen and (min-width:1400px){
+        p{
+            font-size: .875rem;
+            line-height: 1.5em;
+        }
+        .testimonials-container{
+            margin-left: auto;
+            margin-right: auto;
+            transform: translateX(5px);
+            gap: 2.5rem;
+        }
+        .user-information-container{
+            row-gap:0;
+            column-gap: .75rem;
+        }
+        .testimonial{
+            width: 30%;
+        }
+        .user-description{
+            font-size: .5rem;
+            line-height: .625rem;
+        }
+        .bg-quotes{
+        position:absolute;
+        width: 5rem;
+        top:-50px;
+        left:-10px;
+        }
+    }
+   
 </style>
 
 <section class="testimonials-container">
