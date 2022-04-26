@@ -25,14 +25,18 @@
 		left:0;
 		right:0;
 	}
-	@media screen and (min-width: 800px){
+	@media screen and (min-width: 1400px){
 		footer{
 			padding-top: 10.75rem;
 		}
 		.position-sign-up{
 			bottom: -8.75rem;
 		}
-		
+	}
+	@media screen and (min-width: 800px){
+		.position-sign-up{
+			bottom: -11rem;
+		}
 	}
 </style>
 <header>

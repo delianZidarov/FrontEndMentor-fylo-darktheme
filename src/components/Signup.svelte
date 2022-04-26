@@ -107,7 +107,21 @@
         }
         
     }
-
+    @media screen and (min-width: 800px){
+        form{
+            position:relative;
+            justify-content: flex-start;
+            gap: 2rem;
+        }
+       .signup-container{
+            --input-button-width: 17.5rem;
+            width: 60vw;
+            height: 22rem;
+        }
+        /* .signup-container div{
+            width: 100%;
+        }  */
+    }
 </style>
 <div class="signup-container">
     <form>

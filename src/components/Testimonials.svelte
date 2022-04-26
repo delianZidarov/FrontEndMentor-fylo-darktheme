@@ -70,6 +70,22 @@
         width: 5rem;
         top:-50px;
         left:-10px;
+        }
+    }
+    @media screen and (min-width: 800px){
+        .testimonials-container{
+            margin-left: calc(10vw + 4px);
+            margin-right: calc(10vw - 4px);
+            width: 80vw;
+        }
+        .testimonial{
+            width: 12rem;
+        }
+        .bg-quotes{
+        position:absolute;
+        width: 2rem;
+        top:-22px;
+        left:-4px;
     }
     }
 </style>
