@@ -19,7 +19,7 @@
     .sales-point{
         text-align: center;
     }
-    @media screen and (min-width: 800px){
+    @media screen and (min-width: 1400px){
         h2{
             font-size: 1.25rem;
         }

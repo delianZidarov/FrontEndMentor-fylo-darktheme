@@ -17,6 +17,7 @@
     .footer{
         padding-left: 1.75rem;
         padding-bottom: 3.5rem;
+        
         background-color: var(--footer-bg);
     }
     .container {
@@ -77,6 +78,39 @@
         color: var(--accent-color);
         border-color: var(--accent-color);
         transition: 0.25s ease-in;
+    }
+    @media screen and (min-width: 1400px){
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 52px;
+            width: 86vw;
+            margin-left: auto;
+            margin-right:auto;
+        }
+        .footer-logo{
+            flex-basis: 100%;
+        }
+        .container{
+            grid-template: "locationImg location phoneImg phone" 2.25rem
+                            "locationImg location emailImg email" 2.25rem / 1.5rem 3fr 1.5rem 2fr;
+            width: 630px;
+            margin-top:0;
+            margin-left: 12px;
+        }
+        .address{
+            grid-area: locationImg;
+        }
+        .address + p{
+            grid-area: location;
+        }
+        .links-container{
+            margin-top: 0;
+        }
+        .social-media-container{
+            margin-top: 0;
+        }
     }
 </style>
 <div class="footer">

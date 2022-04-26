@@ -45,7 +45,7 @@
         top:-22px;
         left:4px;
     }
-    @media screen and (min-width:800px){
+    @media screen and (min-width:1400px){
         p{
             font-size: .875rem;
             line-height: 1.5em;

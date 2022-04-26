@@ -59,7 +59,7 @@
    #change-bg{
        fill: var(--accent-color);
    }
-   @media screen and (min-width: 800px){
+   @media screen and (min-width: 1400px){
     h2{
         width: 20ch;
         text-align: left;

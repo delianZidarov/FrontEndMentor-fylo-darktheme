@@ -37,7 +37,7 @@
     .hero-image img{
         max-width: 100%;
     }
-    @media screen and (min-width:800px){
+    @media screen and (min-width:1400px){
         h1{
             max-width: 45.9rem;
             font-size: 2.5rem;

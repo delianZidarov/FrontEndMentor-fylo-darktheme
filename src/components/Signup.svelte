@@ -50,6 +50,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 9px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
     }
     .error{
         position: relative;
@@ -68,7 +69,7 @@
         font-size: .714em;
         color: #c0c0c0;
     }
-    @media screen and (min-width: 800px){
+    @media screen and (min-width: 1400px){
         h2{
             font-size: 2rem;
             line-height: 3rem;
